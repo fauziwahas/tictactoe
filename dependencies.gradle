@@ -1,0 +1,5 @@
+ext {
+  spring_boot_starter_web_version = '2.6.11'
+  spring_boot_starter_websocket_version = '2.6.11'
+  spring_boot_starter_thymeleaf = '2.6.11'
+}
