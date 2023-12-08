@@ -11,5 +11,5 @@
 8. The second player can join from another device by clicking the join button; the joining player will be assigned player ID 2.
 9. The first turn goes to player ID 1, the second goes to player ID 2, the third goes back to player ID 1, and so on.
 10. Upon completion, an alert will pop up indicating either a win to one of the player, or a draw.
-11. To end the game, simply disconnect both player to free the resources taken for the underlying websocket.
+11. To end the game, simply disconnect both players to free the resources taken for the underlying websocket.
 12. All messages should appear inside the console on the bottom of the page.
