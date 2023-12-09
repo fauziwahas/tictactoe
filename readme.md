@@ -2,7 +2,7 @@
 
 ## How to play:
 1. The game is a 2-player-only game, one can run the server while playing as the first player, and the other can join as the second player from another device.
-2. Note that the two devices should be on the same LAN.
+2. Note that the two devices should be on the same LAN, and that the port 8080 must be allowed in the firewall rules.
 3. Copy the IP of the computer acting as the server, paste it to the brokerURL field of the StompJs.Client in app.js line 11; do not change the protocol, the port, nor the resource path.
 4. Run the server using the "gradle clean build bootRun" or "java --jar"
 5. Open the website from browser: "localhost:8080" from the server, or "&lt;server-ip&gt;:8080" from another device.
